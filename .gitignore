@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+
+# Dataset cache and output
+*.arrow
+*.h5
+*.ckpt
+*.pt
+*.bin
+*.log
+*.json
+*.tmp
+*.cache/
+
+# Training outputs
+outNew/
+saved_model/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+
+# Hugging Face cache
+~/.cache/huggingface
